@@ -1,0 +1,37 @@
+{
+  "name": "benchmark.ts",
+  "version": "0.0.0",
+  "description": "Measure the time to execute the given function.",
+  "keywords": [
+    "benchmark",
+    "jsperf",
+    "measure",
+    "performance"
+  ],
+  "author": "Beeno Tung",
+  "license": "BSD-2-Clause",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "ts-node test/fp-vs-oop.ts",
+    "build": "tsc -p .",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/benchmark.ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beenotung/benchmark.ts/issues"
+  },
+  "homepage": "https://github.com/beenotung/benchmark.ts#readme"
+}
