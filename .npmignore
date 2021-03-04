@@ -1,0 +1,11 @@
+.idea/
+test/
+.prettierrc
+*.tgz
+
+*.ts
+!*.d.ts
+
+*.yaml
+*.json
+!package.json
