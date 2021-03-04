@@ -1,6 +1,6 @@
 # benchmark.ts
 
-Measure the time to execute the given function.
+Measure the time needed to execute a given function.
 
 [![npm Package Version](https://img.shields.io/npm/v/benchmark.ts.svg?maxAge=3600)](https://www.npmjs.com/package/benchmark.ts)
 
