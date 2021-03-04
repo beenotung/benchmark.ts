@@ -3,10 +3,7 @@
         "esModuleInterop": true,
         "declaration": true,
         "strict": true,
-        "lib": [
-            "ES2015",
-            "DOM"
-        ]
+        "target": "ES6"
     },
     "files": ["index.ts"]
 }
